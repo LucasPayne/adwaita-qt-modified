@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd build
+if make
+then
+    echo cp src/style/adwaita.so ~/.local/lib/adwaita.so
+    cp src/style/adwaita.so ~/.local/lib/adwaita.so
+fi
